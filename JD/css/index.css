@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.banner-bg {
+    position: relative;
+    width: 100%;
+    top: 5px;
+    background-color: rgb(190, 216, 189);
+}
+.banner-bg img {
+    position: relative;
+    left: 150px;
+}
+.tips {
+    position: relative;
+    top: 5px;
+    height: 19px;
+    background-color: rgb(255, 248, 240);
+}
+.tips p {
+    position: relative;
+    font-size: 6px;
+    text-align: center;
+    top: 5px;
+    color: gray;
+}
+.tips p img {
+    position: relative;
+    top: 2px;
+}
+.tips p a {
+    text-decoration: none;
+    color: black;
+}
+.tips p a:hover {
+    text-decoration: none;
+    color: red;
+}
+.logo {
+    position: relative;
+    top: 0px;
+    left: 220px;
+}
+.welcome {
+    position: relative;
+    top: 35px;
+    left: 340px;
+    font-size: 15px;
+}
+.question a {
+    text-decoration: none;
+    color: gray;
+    font-size: 7px;
+}
+.question p img {
+    float: left;
+}
+.question {
+    position: relative;
+    top: 65px;
+    left: 650px;
+}
+.question a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.tipe-1 {
+    background-color: rgb(255, 248, 240);
+    width: 180px;
+    height: 19px;
+    font-size: 7px;
+    z-index: 1;
+    position: relative;
+}
+.tipe-1 p {
+    position: relative;
+    color: #999;
+    text-align: center;
+    top: 3px;
+    font-size: 7px;
+}
+.tipe-1 p img {
+    position: relative;
+    top: 3px;
+}
+.tipe-2 {
+    background-color: rgb(252, 252, 252);
+    width: 180px;
+    height: 25px;
+    font-size: 7px;
+    z-index: 1;
+    position: relative;
+    top: 28px;
+    border-top: 1px solid rgb(244, 244, 244);
+}
+.tipe-2 .a1 {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.tipe-2 .a1 img {
+    position: relative;
+    top: 2px;
+}
+.tipe-2 .a2 {
+    position: relative;
+    top: 2px;
+    left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.tipe-2 .a2 img {
+    position: relative;
+    top: 2px;
+}
+.tipe-2 .a3 {
+    position: relative;
+    top: 2px;
+    left: 80px;
+    text-decoration: none;
+    color: red;
+    font-size: 8px;
+}
+.tipe-2 .a3 img {
+    position: relative;
+    top: 2px;
+}
+.tipe-2 span {
+    position: relative;
+    left: 15px;
+    top: 2px;
+}
+.tipe-2 .a1:hover,.a2:hover,.a3:hover {
+    text-decoration: underline;
+    color: red;
+}
+.bottom a {
+    position: relative;
+    text-decoration: none;
+    font-size: 5px;
+    margin-right: 4px;
+    margin-left: 4px;
+    color: gray;
+}
+.bottom a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.bottom {
+    font-size: 5px;
+    position: relative;
+    top: 20px;
+    left: 250px;
+}
+.copyright {
+    position: relative;
+    font-size: 6px;
+    color: gray;
+    left: 370px;
+    top: 30px;
+}
+.login-form {
+    width: 180px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    left: 540px;
+    top: -237px;
+}
+.login-1 {
+    width: 180px;
+    height: 25px;
+    background-color: white;
+    font-size: 10px;
+}
+.login-1 a {
+    margin-right: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: gray;
+    position: relative;
+    top: 5px;
+}
+.login-1 a:hover {
+    color: red;
+}
+.login-1 span {
+    position: relative;
+    top: 5px;
+}
+#account {
+    width: 160px;
+    height: 140px;
+    background-color: white;
+    margin: auto auto;
+    line-height: 10px;
+    display: none;
+}
+#account img {
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.d2 {
+    position: relative;
+    top: 30px;
+}
+.d1 {
+    position: relative;
+    top: 15px;
+}
+.sef {
+    position: relative;
+    top: 50px;
+    left: 120px;
+    font-size: 5px;
+    text-decoration: none;
+    color: gray;
+}
+.sef a {
+    text-decoration: none;
+    color: gray;
+}
+.sef a:hover {
+    color: red;
+}
+.qrcode-main {
+    width: 160px;
+    height: 100px;
+    padding: 0 5px;
+    position: relative;
+    border-top: 1px solid rgb(244, 244, 244);
+    overflow: hidden;
+    left: 0px;
+}
+.qrcode-main .qrcode-img {
+    position: absolute;
+    padding: 8px;
+    top: 10px;
+    left: 0px;
+    border: 1px solid rgb(244, 244, 244);
+}
+.qrcode-main .qrcode-help {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    display: none;
+    border: none;
+}
+.qrcode-main p {
+    font-size: 8px;
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+.qrcode-main p a {
+    color: red;
+    text-decoration: none;
+}
